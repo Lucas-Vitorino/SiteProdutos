@@ -1,0 +1,156 @@
+/* RESET */
+body, h1, h2, h3, p, ul {
+	padding: 0px;
+	margin: 0px;
+}
+
+a {
+	text-decoration: none;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+	background: url("../img/back.jpg") no-repeat;
+	background-size: cover;
+}
+
+.container {
+	display: block;
+	max-width: 960px;
+	margin: 0 auto;
+}
+
+.header {
+	grid-area: header;
+	background: #16161A;
+	padding: 20px;
+	display: grid;
+	grid-template-columns: 1fr auto;
+	align-items: center;
+	border-radius: 5px;
+}
+
+
+
+/* TITULO */
+.logo {
+	font-family:Adobe-Caslon-Pro;
+	font-size: 4em;
+	display: block;
+	width: 300px;
+	color: white;
+	text-align: center;
+	background: rgba(0, 0, 0, .1);
+	border-radius: 5px;
+	transition: 0.1s;
+	margin: 0 auto;
+}
+.logo:hover {
+	background: hsl(176, 68%, 64%); 
+}
+
+/* section - PRODUTOS */
+
+.produtos {
+	margin: 100px 0;
+	display: block;
+}
+
+.produtos-item {
+	margin-bottom: 64px;
+	padding: 0px 0px 0px 160px; 
+}
+.produtos-item h2 {
+	font-family: Adobe-Caslon-Pro;
+	font-size: 3em;
+	line-height: 56px;
+	color: #fff;
+}
+.produtos-item p {
+	font-family: Roboto Mono;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	line-height: 23px;
+	color: #fff;
+	display: block;
+	width: 380px;
+	padding: 32px 0px;
+}
+/* TRAÇO */
+.produtos-item .separador {
+	 position: relative;
+	 right: 160px;
+	 top: 20px;
+}
+/* BOTÃO */
+.produtos-btn {
+	font-family: Roboto Mono;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 16px;
+	line-height: 19px;
+	display: block;
+	align-items: center;
+	color: #16161A;
+	text-decoration: none;
+	text-transform: uppercase;
+	padding: 16px;
+	background: hsl(176, 68%, 64%);
+	border-radius: 5px;
+	width: 150px;
+}
+.produtos-btn img {
+	padding-left: 7px; 
+}
+
+.footer {
+	padding: 32px 0;
+	background: #16161A;
+}
+.footer-container {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	max-width: 960px;
+	margin: 0 auto;
+}
+.footer-container p {
+	font-family: Roboto Mono;
+	font-size: 1.125em;
+	color: #fff;
+	text-align: left;
+}
+
+.copy {
+
+}
+
+.footer-contato ul li {
+	list-style: none;
+	color: #fff;
+	font-family:Roboto Mono; 
+}
+
+.footer-contato li + li {
+	margin-top: 10px;
+}
+.footer-contato h3 {
+	color: white;
+	font-size: 1.125em;
+	font-family: Roboto;
+	font-style: normal;
+	text-decoration: none; 
+	margin-bottom: 12px; 
+}
+.footer-contato h3:after {
+	content: '';
+	display: block;
+	width: 80px;
+	height: 2px;
+	background: white;
+	margin: 5px 0 5px 1px;
+}
